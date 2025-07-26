@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 # --- Load the CSV data ---
-DATA_PATH = "Suryacore/data/ingredients.csv"
+DATA_PATH = "data/ingredients.csv"
 df = pd.read_csv(DATA_PATH)
 
 # --- Backend logic to compute all metrics automatically ---
